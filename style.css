@@ -1,0 +1,43 @@
+#digits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px;
+
+    justify-self: center;
+}
+.numb, .action {
+    padding: 30px;
+    border-radius: 30% ;
+    font-size: 45px;
+    width: 120px;
+    max-height: 100vh;
+
+
+}
+body {
+    background-color: black;
+    margin: 30px;
+    max-height: 100vh;
+    max-width: min-content;
+    resize: none;
+    margin: auto;
+    
+}
+.numb {
+  background-color: rgb(98, 207, 9);
+}
+.action {
+    background-color: chocolate;
+}
+.input {
+    width: 490px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    border: 2px solid wheat;
+    border-radius: 25%;
+    margin-bottom: 30px;
+    text-align: end;
+}
