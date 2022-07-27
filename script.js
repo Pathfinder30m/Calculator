@@ -64,7 +64,7 @@ var value2;
 var valueAction;
 var result;
 var actionPlus = "plus";
-var actionMinus = "plus";
+var actionMinus = "minus";
 var actionIncrease = "increase";
 var actionDivision = "division";
 minus.addEventListener('click', function handleChange(){
